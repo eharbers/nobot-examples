@@ -10,7 +10,7 @@ if (reminder === undefined) {
 reminder = reminder.trim();
 const hasReminderAlready = reminders.indexOf(reminders) > -1;
 if (hasReminderAlready) {
-    console.log(`Doh! Alread have the reminder '${reminder}' set`);
+    console.log(`Doh! Already have the reminder '${reminder}' set`);
     process.exit(0);
 }
 reminders.push(reminder);
